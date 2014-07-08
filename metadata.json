@@ -1,0 +1,17 @@
+{
+  "name": "mbarr-moderninfra",
+  "version": "0.1.0",
+  "author": "mbarr",
+  "summary": "An opioninated module to install rabbitmq, mcollective, sensu, & logstash",
+  "license": "Apache 2.0",
+  "source": "https://github.com/matthewbarr/moderninfra",
+  "project_page": "https://github.com/matthewbarr/moderninfra",
+  "issues_url": "https://github.com/matthewbarr/moderninfra/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+

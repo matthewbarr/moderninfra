@@ -1,0 +1,20 @@
+{
+"network": {
+"servers": [ "<%= @logstash_server_real %>:12345" ],
+"ssl ca": "/var/lib/puppet/ssl/certs/ca.pem",
+"timeout": 15
+},
+"files": [
+{
+"paths": [
+"/var/log/messages",
+"/var/log/syslog",
+"/var/log/*.log",
+"/var/log/secure",
+"/var/log/cron",
+"/var/log/dmesg"
+],
+"fields": { "type": "syslog" }
+}
+]
+}
